@@ -1,18 +1,18 @@
 #include <iostream>
 struct Pizza {
-char name[100];
-double weight;
-int kcal;
+	char name[100];
+	double diametr;
+	double weight;
 };
 int main() {
-using namespace std;
-Pizza yourPizza;
-cout << "Enter Name: ";
-cin.getline(yourPizza.name, 100);
-cout << "Enter diametr: ";
-cin >> yourPizza.weight;
-cout << "Enter weight: ";
-cin >> yourPizza.kcal;
-cout << "Pizza: " << yourPizza.name << endl << "Diametr: " << yourPizza.weight << endl << "Weight: " << yourPizza.kcal << endl;
-return 0;
+	using namespace std;
+	Pizza yourPizza;
+	cout << "Enter Name: ";
+	cin.getline(yourPizza.name, 100);
+	cout << "Enter diametr: ";
+	cin >> yourPizza.diametr;
+	cout << "Enter weight: ";
+	cin >> yourPizza.weight;
+	cout << "Pizza: " << yourPizza.name << endl << "Diametr: " << yourPizza.diametr << endl << "Weight: " << yourPizza.weight << endl;
+	return 0;
 }
