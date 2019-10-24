@@ -7,6 +7,6 @@ int kcal;
 int main() {
 using namespace std;
 CandyBar snack = { "Mocha Much", 2.3, 350 };
-cout « snack.name << ", " << snack.mas << ", " << snack.kcal << endl;
+cout << snack.name << ", " << snack.mas << ", " << snack.kcal << endl;
 return 0;
 }
