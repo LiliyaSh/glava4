@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+struct Pizza {
+	int diametr;
+	string name;
+	double weight;
+};
+int main() {
+	Pizza *yourPizza = new Pizza;
+	cout << "Enter diametr: ";
+	cin >> yourPizza -> diametr;
+	cin.get();
+	cout << "Enter name: ";
+	getline(cin, yourPizza -> name);
+	cout << "Enter weight: ";
+	cin >> yourPizza -> weight;
+	cout << "Pizza: " << yourPizza -> name << endl << "Diametr: " << yourPizza -> diametr << endl << "Weight: " << yourPizza -> weight << endl;
+	return 0;
+}
