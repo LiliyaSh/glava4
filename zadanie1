@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+char name1[100];
+cout « "What is your first name? ";
+cin.getline(name1, 100);
+cout « "What is your last name? ";
+char name2[101];
+cin.getline(name2, 101);
+cout « "What letter grade do you deserve? ";
+char grade;
+cin » grade;
+int age;
+cout « "What is your age? ";
+cin » age;
+cin.get();
+cout « "Name: " « name2 « ", " « name1 « endl;
+cout « "Age: " « age « endl;;
+switch (grade)
+{
+case 'A':
+cout « "Grade: B" « endl;
+break;
+case 'B':
+cout « "Grade: C" « endl;
+break;
+case 'C':
+cout « "Grade: D" « endl;
+break;
+case 'D':
+cout « "Grade: F" « endl;
+break;
+default: cout « "Wrong answear" « endl;
+}
+return 0;
+}
