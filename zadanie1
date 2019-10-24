@@ -15,7 +15,7 @@ cout << "What is your age? ";
 cin >> age;
 cin.get();
 cout << "Name: " << name2 << ", " << name1 << endl;
-cout << "Age: " << age << endl;;
+cout << "Age: " << age << endl;
 switch (grade) {
 case 'A':
 cout << "Grade: B" << endl;
